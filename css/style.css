@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: "Lato";
+}
+nav{
+    background-color: #27474E;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    color: #fff;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-left: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s;  
+}
+nav a:hover{
+    color: rgb(206, 206, 206);
+}
+.active{
+    color: rgb(206, 206, 206);
+    font-weight: 700;
+}
+#logo{
+    width: 40px;
+    margin-right: 600px;
+}
+.banner{
+    background-color: red;
+    background: linear-gradient(45deg,#e66465, #9198e5);
+    background-image: url(../img/pexels-pixabay-417173.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+}
